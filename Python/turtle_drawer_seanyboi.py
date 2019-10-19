@@ -11,7 +11,7 @@ t.speed()
 
 # defines the shape to be drawn
 def square(t, size):
-	for tmp in range(0,4):
+	for temp in range(0,4):
 		t.forward(size)
 		t.right(90)
 

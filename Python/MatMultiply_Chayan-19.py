@@ -29,7 +29,7 @@ def multiplyMatrix(row1, col1, A,
 		for j in range(col2) : 
 			C[i][j] = 0
 			for k in range(row2) : 
-				C[i][j] += A[i][k] * B[k][j]; 
+				C[i][j] += A[i][k] * B[k][j]
 
 	# Print the result 
 	print("Resultant Matrix: ") 
@@ -48,7 +48,7 @@ if __name__ == "__main__" :
 	col1 = int(input("Enter the number of columns of First Matrix: ")) 
 
 	# Read the elements of Matrix A from user 
-	print("Enter the elements of First Matrix: "); 
+	print("Enter the elements of First Matrix: ") 
 	for i in range(row1) : 
 		for j in range(col1) : 
 			A[i][j] = int(input("A[" + str(i) +
@@ -59,7 +59,7 @@ if __name__ == "__main__" :
 	col2 = int(input("Enter the number of columns of Second Matrix: ")) 
 
 	# Read the elements of Matrix B from user 
-	print("Enter the elements of Second Matrix: "); 
+	print("Enter the elements of Second Matrix: ")
 	for i in range(row2) : 
 		for j in range(col2) : 
 			B[i][j] = int(input("B[" + str(i) +
